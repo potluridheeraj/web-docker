@@ -1,0 +1,57 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: 
+  version:
+  folders:
+
+  - title: Consul
+    output: web, pdf
+    folderitems:
+    
+    - title: Home
+      url: /consul
+      output: web
+    
+    - title: Vagrant setup for consul
+      url: vagrant_consul
+      output: web, pdf
+      
+    - title: Consul pre-requisites
+      url: /consul_prerequisites
+      output: web, pdf
+    
+    - title: Install and configure consul
+      url: /consul_install_configure_consul
+      output: web, pdf
+
+    - title: Consul entire installation sctipt
+      url: /consul_install.html
+      output: web, pdf
+
+    - title: Consul DC setup for server
+      url: /consul_dc_setup
+      output: web, pdf
+
+    - title: Consul UI
+      url: /consul_ui.html
+      output: web, pdf
+
+  - title: Service Regestration
+    output: web, pdf
+
+    folderitems:
+    - title: Nginx
+      url: /nginx
+      output: web, pdf
+  
+  - title: Cheat Sheet
+    output: web, pdf
+
+    folderitems:
+    - title: Cheat sheet 
+      url: /consul_sheet
+      output: web, pdf
+

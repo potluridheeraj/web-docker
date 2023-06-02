@@ -1,0 +1,52 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Learn
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+    
+  - title: Home
+    output: web, pdf
+    folderitems:
+    
+    - title: Home
+      url: /index.html
+      output: web, pdf
+      type: homepage
+  
+  - title: Consul
+    output: web, pdf
+    folderitems:
+
+    - title: About Consul
+      url: /about_consul.html
+      output: web, pdf
+
+  - title: Microsoft
+    output: web, pdf
+    folderitems:
+
+    - title: AZ-204
+      url: /az-204.html
+      output: web, pdf
+
+  - title: About
+    output: web, pdf
+    folderitems:
+
+    - title: about
+      url: /about.html
+      output: web, pdf

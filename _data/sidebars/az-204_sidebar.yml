@@ -1,0 +1,69 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: 
+  version:
+  folders:
+
+  - title: AZ-204
+    output: web, pdf
+    folderitems:
+    
+    - title: Home
+      url: /az-204
+      output: web
+    
+    - title: Develop Azure compute solutions
+      url: Develop_Azure_compute_solutions
+      output: web, pdf
+
+  - title: Develop Azure compute solutions (25-30%)
+    output: web, pdf
+    folderitems:
+    
+    - title: Implement IaaS solutions
+      url: /Implement_IaaS_solutions
+      output: web, pdf
+    
+    - title: Create Azure App Service Web Apps
+      url: /Create_Azure_App_Service_Web_Apps
+      output: web, pdf
+    
+    - title: Implement Azure functions
+      url: /Implement_Azure_functions
+      output: web, pdf
+  
+  - title: Develop for Azure storage (10-15%)
+    output: web, pdf
+
+    folderitems:
+    - title: Still studying
+      url: /Implement_IaaS_solutions
+      output: web, pdf
+  
+  - title: Implement Azure security (20-25%)
+    output: web, pdf
+
+    folderitems:
+    - title: Still studying
+      url: /Implement_IaaS_solutions
+      output: web, pdf
+ 
+  - title: Monitor, troubleshoot, and optimize Azure solutions (10-15%)
+    output: web, pdf
+
+    folderitems:
+    - title: Still studying
+      url: /Implement_IaaS_solutions
+      output: web, pdf
+
+  - title: Connect to and consume Azure services and third-party services (15-20%)
+    output: web, pdf
+
+    folderitems:
+    - title: Implement IaaS solutions
+      url: /Implement_IaaS_solutions
+      output: web, pdf
+
